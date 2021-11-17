@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "style.css">
+        <title>Cidade de São Paulo </title>
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2? family = Kurale & family = Trochut & display = swap');/*Kurale*/
+        @import url('https://fonts.googleapis.com/css2?family=Kurale&family=Trochut&display=swap');/*Alike Angular*/
+
+        html * {
+            color: white;
+            font-family: "Kurale";
+            margin: 0;
+            padding: 0;
+        }
+
+        span, strong {
+            background-color: rgba(85, 86, 94, 0.911);
+            font-family: "Alike Angular";
+            font-weight: bold;
+        }
+
+        .principal {
+            background-color: rgba(85, 86, 94, 0.911);
+            font-size: 45px;
+            font-style: italic;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .sobre {
+            color:rgb(36, 35, 35);
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #destaque {
+            text-align: center;
+        }
+
+        .curiosidades {
+            font-size: 40px;
+            font-style: italic;
+            font-weight:bolder;
+            padding: 20px;
+            text-align: center;
+            color: rgb(36, 35, 35);
+            
+        }
+
+        ul {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        li {
+            color: rgb(36, 35, 35);
+            font-weight:bolder;
+        }
+
+     
+        #container {
+            background-attachment: fixed;
+            background-image: url("img/paulista.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #rodape {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .icones {
+            height: 70px;
+            margin: 20px;
+            width: 70px;
+        }
+
+    </style>
+
+    <body id = "container">
+        <header id = "cabecalho">
+            <h1 class = "principal"> Cidade de São Paulo </h1>
+            <p class = "sobre"> <strong> São Paulo</strong> é um dos principais municípios brasileiros, fundada em 1554,
+                sendo uma das cidades mais populosas do mundo. É muito conhecida por 
+                <span> ser a terra da garoa</span>, e por ser um dos <span> maiores centros financeiros do planeta. </span>
+            </p>
+        </header>
+
+        <main id = "destaque">
+            <iframe width = "1280" height = "720" src = "https://www.youtube.com/embed/18T6cZP6UE4" title = "Vídeo Youtube"
+            frameborder = "0" allow = "acelerômetro; reprodução automática; gravação na área de transferência; mídia criptografada; giroscópio; imagem na imagem"
+            allowfullscreen> </iframe>
+
+            <h2 class = "curiosidades"> Curiosidades </h2>
+            <ul>
+                <li> Terra da garoa </li>
+                <li> Cidade mais visitada do Brasil </li>
+                <li> São Paulo formou a primeira mulher brasileira em Direito </li>
+                <li> São Paulo abriga 3 aldeias indígenas </li>
+            </ul>
+        </main>
+
+        <footer id = "rodape">
+            <a href="https://www.instagram.com/prefsp/?hl=pt-br" target="_blank"> <img src = "img/instagram.png" class = "icones"> </a>
+            <a href="https://www.youtube.com/channel/UCRgHhRLeLXeu3E89haOlttg" target="_blank"> <img src = "img/youtube.png" class = "icones"> </a>
+        </footer>
+    </body>
+
+</html>
